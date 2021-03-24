@@ -30,20 +30,7 @@ Plug 'sheerun/vim-polyglot'
 " Status bar
 Plug 'itchyny/lightline.vim'
 
-" Conquerer of Completions
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
-
 " NERD Commenter
 Plug 'preservim/nerdcommenter'
-
-" Show differences on gutter
-Plug 'mhinz/vim-signify'
-
-" vimwiki support
-Plug 'vimwiki/vimwiki'
-Plug 'mattn/calendar-vim'
-
-" LaTeX file support
-Plug 'lervag/vimtex'
 
 call plug#end()

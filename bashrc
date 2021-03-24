@@ -2,8 +2,8 @@
 # ~/.bashrc
 #
 
-export EDITOR="/usr/bin/nvim"
-export SUDO_EDITOR="/usr/bin/vim"
+export EDITOR="/usr/bin/emacs"
+export SUDO_EDITOR="/usr/bin/emacs"
 export VISUAL="/usr/bin/emacs"
 
 # manpager
