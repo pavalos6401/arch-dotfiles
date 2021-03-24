@@ -25,6 +25,10 @@ was made mostly with Arch Linux in mind.
 All required packages are Arch Linux packages, they might be named differently
 in other distributions.
 
+### Separate repository
+
+- [Qtile](https://github.com/pavalos6401/qtile-config)
+
 ### Separate readme
 
 - [Bpytop](./config/bpytop/README.md)
@@ -36,7 +40,6 @@ in other distributions.
 - [Obmenu-generator](./config/obmenu-generator/README.md)
 - [Openbox](./config/openbox/README.md)
 - [Picom](./config/picom/README.md)
-- [Qtile](./config/qtile/README.md)
 - [Qutebrowser](./config/qutebrowser/README.md)
 - [Ranger](./config/ranger/README.md)
 - [Rofi](./config/rofi/README.md)
