@@ -15,10 +15,24 @@ information.
 Packages: `emacs`, `git`, `ripgrep`, `fd`  
 Doom Emacs: [Doom Emacs](https://github.com/hlissner/doom-emacs)
 
-### markdown
+### lang markdown
 
 - markdown compiler: `pandoc`
 
-### sh
+### lang sh
 
-- lang sh: `shellcheck`
+- `shellcheck`
+
+### lang java
+
+- clang-format: `clang`
+- language: `jdk-openjdk` (or `jdk11-openjdk`, etc. depending on version)
+
+### lang python
+
+- code formatting: `python-black`
+- import management: `python-pyflakes`
+- import sorting: `python-isort`
+- pipenv support: `python-pipenv`
+- running tests: `python-nose`
+- running tests: `python-pytest`
