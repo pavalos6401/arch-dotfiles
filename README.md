@@ -27,12 +27,12 @@ in other distributions.
 
 ### Separate repository
 
-- [Qtile](https://github.com/pavalos6401/qtile-config)
+- [Qtile](https://github.com/pavalos6401/qtile-config/)
+- [Doom Emacs](https://github.com/pavalos6401/doom-config/)
 
 ### Separate readme
 
 - [Bpytop](./config/bpytop/README.md)
-- [Doom Emacs](./doom.d/README.md)
 - [GTK](./config/gtk-3.0/README.md)
 - [Kitty](./config/kitty/README.md)
 - [Neofetch](./config/neofetch/README.md)
