@@ -4,7 +4,6 @@
 
 " Important
 set nocompatible
-let &t_ut='' " for kitty
 
 " Display
 set number
