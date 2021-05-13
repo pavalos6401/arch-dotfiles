@@ -12,7 +12,6 @@
 - Keep my configurations public.
   - I learned a thing or two from other repositories, so others might learn something.
   - Others might contribute or provide suggestions that I might improve.
-  
 
 ## About
 
@@ -32,6 +31,7 @@ in other distributions.
 
 ### Separate readme
 
+- [Alacritty](./config/alacritty/README.md)
 - [Bpytop](./config/bpytop/README.md)
 - [GTK](./config/gtk-3.0/README.md)
 - [Kitty](./config/kitty/README.md)
