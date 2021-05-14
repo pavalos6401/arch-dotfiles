@@ -4,10 +4,10 @@
   modi:                       "window,run,drun,ssh";
   combi-modi:                 "window,drun,ssh";
   font:                       "Source Code Pro 11";
-  foreground:                 #d8dee9;
-  background-color:           #2e3440;
-  active-background:          #434c5e;
-  urgent-background:          #bf616a;
+  foreground:                 #D8DEE9;
+  background-color:           #2E3440;
+  active-background:          #434C5E;
+  urgent-background:          #BF616A;
   selected-background:        @active-background;
   selected-urgent-background: @urgent-background;
   selected-active-background: @active-background;
@@ -85,7 +85,7 @@
 #scrollbar {
   width:        2px;
   border:       0;
-  handle-color: #5e81ac;
+  handle-color: #5E81AC;
   handle-width: 8px;
   padding:      0;
 }
