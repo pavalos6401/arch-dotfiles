@@ -1,5 +1,13 @@
 # Alacritty config
 
+## About
+
+Alacritty is "a cross-platform, OpenGL terminal emulator". See the
+[official github](https://github.com/alacritty/alacritty/) for more information.
+
+My config is split across different files to make it easier to organize and
+edit.
+
 ## Requirements
 
 Package: `alacritty`
