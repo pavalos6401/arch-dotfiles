@@ -2,8 +2,11 @@
 
 ## Requirements
 
-- Font: `adobe-source-code-pro-fonts`
+Package: `alacritty`
+
+- Fonts: `adobe-source-code-pro-fonts`
 
 ## Installation
 
-Symlink or copy the alacritty folder into ~/.config/alacritty
+1. Install requirements.
+2. Copy, or symlink, the `alacritty` folder into `~/.config/alacritty`
