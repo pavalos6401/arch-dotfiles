@@ -18,6 +18,9 @@ autocmd VimEnter *
 " Plugins
 call plug#begin('~/.vim/plugged')
 
+" Themes
+Plug 'arcticicestudio/nord-vim'
+
 " Syntax
 Plug 'sheerun/vim-polyglot'
 

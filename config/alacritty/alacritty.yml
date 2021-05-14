@@ -24,3 +24,4 @@ import:
         - ~/.config/alacritty/hints.yml
         - ~/.config/alacritty/bindings.yml
         - ~/.config/alacritty/debug.yml
+        - ~/.config/alacritty/themes/nord.yml
