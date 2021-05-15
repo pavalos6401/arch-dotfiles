@@ -162,9 +162,9 @@ launcher_icon_theme = Papirus-Dark
 launcher_icon_theme_override = 0
 startup_notifications = 1
 launcher_tooltip = 1
-launcher_item_app = firefox.desktop
+launcher_item_app = /usr/share/applications/google-chrome.desktop
 launcher_item_app = /usr/share/applications/emacs.desktop
-launcher_item_app = /usr/share/applications/kitty.desktop
+launcher_item_app = /usr/share/applications/alacritty.desktop
 
 #-------------------------------------
 # Clock
@@ -207,7 +207,7 @@ ac_disconnected_cmd =
 # Button 1
 button = new
 button_text = Apps
-button_lclick_command = rofi -show drun
+button_lclick_command = rofi -show drun -location 7
 button_rclick_command = 
 button_mclick_command = 
 button_uwheel_command = 

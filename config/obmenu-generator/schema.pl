@@ -35,7 +35,7 @@ our $SCHEMA = [
 
     #          COMMAND                 LABEL              ICON
     {item => ['xdg-open .',       'File Manager', 'system-file-manager']},
-    {item => ['kitty',            'Terminal',     'utilities-terminal']},
+    {item => ['alacritty',            'Terminal',     'utilities-terminal']},
     {item => ['xdg-open http://', 'Web Browser',  'web-browser']},
     {item => ['gmrun',            'Run command',  'system-run']},
 
@@ -72,13 +72,13 @@ our $SCHEMA = [
     {beg => ['Advanced Settings', 'applications-engineering']},
 
       # Configuration files
-      {item => ["$editor ~/.conkyrc",              'Conky RC',    'text-x-generic']},
-      {item => ["$editor ~/.config/tint2/tint2rc", 'Tint2 Panel', 'text-x-generic']},
+      {item => ["$EDITOR ~/.conkyrc",              'Conky RC',    'text-x-generic']},
+      {item => ["$EDITOR ~/.config/tint2/tint2rc", 'Tint2 Panel', 'text-x-generic']},
 
       # obmenu-generator category
       {beg => ['Obmenu-Generator', 'accessories-text-editor']},
-        {item => ["$editor ~/.config/obmenu-generator/schema.pl", 'Menu Schema', 'text-x-generic']},
-        {item => ["$editor ~/.config/obmenu-generator/config.pl", 'Menu Config', 'text-x-generic']},
+        {item => ["$EDITOR ~/.config/obmenu-generator/schema.pl", 'Menu Schema', 'text-x-generic']},
+        {item => ["$EDITOR ~/.config/obmenu-generator/config.pl", 'Menu Config', 'text-x-generic']},
 
         {sep  => undef},
         {item => ['obmenu-generator -s -c',    'Generate a static menu',             'accessories-text-editor']},
@@ -93,17 +93,17 @@ our $SCHEMA = [
 
       # Openbox category
       {beg => ['Openbox', 'openbox']},
-        {item => ["$editor ~/.config/openbox/autostart", 'Openbox Autostart',   'text-x-generic']},
-        {item => ["$editor ~/.config/openbox/rc.xml",    'Openbox RC',          'text-x-generic']},
-        {item => ["$editor ~/.config/openbox/menu.xml",  'Openbox Menu',        'text-x-generic']},
+        {item => ["$EDITOR ~/.config/openbox/autostart", 'Openbox Autostart',   'text-x-generic']},
+        {item => ["$EDITOR ~/.config/openbox/rc.xml",    'Openbox RC',          'text-x-generic']},
+        {item => ["$EDITOR ~/.config/openbox/menu.xml",  'Openbox Menu',        'text-x-generic']},
         {item => ['openbox --reconfigure',               'Reconfigure Openbox', 'openbox']},
       {end => undef},
     {end => undef},
 
     {sep => undef},
 
-    ## The xscreensaver lock command
-    {item => ['xscreensaver-command -lock', 'Lock', 'system-lock-screen']},
+    ## The screensaver lock command
+    {item => ['light-locker-command -l', 'Lock', 'system-lock-screen']},
 
     ## This option uses the default Openbox's "Exit" action
     {exit => ['Exit', 'application-exit']},
