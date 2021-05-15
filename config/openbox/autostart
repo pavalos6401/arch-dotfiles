@@ -14,6 +14,7 @@
 #
 #xfce-mcs-manager &
 
+light-locker &
 picom &
 tint2 &
 redshift-gtk &
