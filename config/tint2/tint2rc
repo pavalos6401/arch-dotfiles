@@ -164,7 +164,7 @@ startup_notifications = 1
 launcher_tooltip = 1
 launcher_item_app = /usr/share/applications/google-chrome.desktop
 launcher_item_app = /usr/share/applications/emacs.desktop
-launcher_item_app = /usr/share/applications/alacritty.desktop
+launcher_item_app = /usr/share/applications/Alacritty.desktop
 
 #-------------------------------------
 # Clock
@@ -207,7 +207,7 @@ ac_disconnected_cmd =
 # Button 1
 button = new
 button_text = Apps
-button_lclick_command = rofi -show drun -location 7
+button_lclick_command = rofi -show drun -icon-theme Papirus-Dark -show-icons
 button_rclick_command = 
 button_mclick_command = 
 button_uwheel_command = 

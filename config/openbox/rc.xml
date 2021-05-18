@@ -320,16 +320,16 @@
           <enabled>true</enabled>
           <name>rofi</name>
         </startupnotify>
-        <command>rofi -show drun</command>
+        <command>rofi -show drun -icon-theme Papirus-Dark -show-icons</command>
       </action>
     </keybind>
     <keybind key="W-Return">
       <action name="Execute">
         <startupnotify>
           <enabled>true</enabled>
-          <name>kitty</name>
+          <name>alacritty</name>
         </startupnotify>
-        <command>kitty</command>
+        <command>alacritty</command>
       </action>
     </keybind>
   </keyboard>

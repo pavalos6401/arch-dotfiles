@@ -37,7 +37,7 @@ our $SCHEMA = [
     {item => ['xdg-open .',       'File Manager', 'system-file-manager']},
     {item => ['alacritty',            'Terminal',     'utilities-terminal']},
     {item => ['xdg-open http://', 'Web Browser',  'web-browser']},
-    {item => ['gmrun',            'Run command',  'system-run']},
+    {item => ['rofi -show run -icon-theme Papirus-Dark -show-icons',            'Run command',  'system-run']},
 
     {sep => 'Categories'},
 
@@ -72,13 +72,13 @@ our $SCHEMA = [
     {beg => ['Advanced Settings', 'applications-engineering']},
 
       # Configuration files
-      {item => ["$EDITOR ~/.conkyrc",              'Conky RC',    'text-x-generic']},
-      {item => ["$EDITOR ~/.config/tint2/tint2rc", 'Tint2 Panel', 'text-x-generic']},
+      {item => ["$editor ~/.conkyrc",              'Conky RC',    'text-x-generic']},
+      {item => ["$editor ~/.config/tint2/tint2rc", 'Tint2 Panel', 'text-x-generic']},
 
       # obmenu-generator category
       {beg => ['Obmenu-Generator', 'accessories-text-editor']},
-        {item => ["$EDITOR ~/.config/obmenu-generator/schema.pl", 'Menu Schema', 'text-x-generic']},
-        {item => ["$EDITOR ~/.config/obmenu-generator/config.pl", 'Menu Config', 'text-x-generic']},
+        {item => ["$editor ~/.config/obmenu-generator/schema.pl", 'Menu Schema', 'text-x-generic']},
+        {item => ["$editor ~/.config/obmenu-generator/config.pl", 'Menu Config', 'text-x-generic']},
 
         {sep  => undef},
         {item => ['obmenu-generator -s -c',    'Generate a static menu',             'accessories-text-editor']},
@@ -93,9 +93,9 @@ our $SCHEMA = [
 
       # Openbox category
       {beg => ['Openbox', 'openbox']},
-        {item => ["$EDITOR ~/.config/openbox/autostart", 'Openbox Autostart',   'text-x-generic']},
-        {item => ["$EDITOR ~/.config/openbox/rc.xml",    'Openbox RC',          'text-x-generic']},
-        {item => ["$EDITOR ~/.config/openbox/menu.xml",  'Openbox Menu',        'text-x-generic']},
+        {item => ["$editor ~/.config/openbox/autostart", 'Openbox Autostart',   'text-x-generic']},
+        {item => ["$editor ~/.config/openbox/rc.xml",    'Openbox RC',          'text-x-generic']},
+        {item => ["$editor ~/.config/openbox/menu.xml",  'Openbox Menu',        'text-x-generic']},
         {item => ['openbox --reconfigure',               'Reconfigure Openbox', 'openbox']},
       {end => undef},
     {end => undef},

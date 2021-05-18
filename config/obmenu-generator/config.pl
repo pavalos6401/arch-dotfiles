@@ -54,7 +54,7 @@ our $CONFIG = {
   "editor"              => "emacs",
   "force_icon_size"     => 0,
   "generic_fallback"    => 0,
-  "gtk_rc_filename"     => "$ENV{HOME}/.gtkrc-2.0",
+  "gtk_rc_filename"     => "$ENV{HOME}/.config/gtk-3.0/settings.ini",
   "icon_size"           => 48,
   "Linux::DesktopFiles" => {
                              desktop_files_paths     => [
@@ -74,6 +74,6 @@ our $CONFIG = {
   "locale_support"      => 1,
   "missing_icon"        => "gtk-missing-image",
   "terminal"            => "alacritty",
-  "use_gtk3"            => 0,
+  "use_gtk3"            => 1,
   "VERSION"             => 0.89,
 }
