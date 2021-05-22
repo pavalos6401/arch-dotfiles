@@ -22,6 +22,12 @@ c.aliases = {'w': 'session-save', 'q': 'close', 'qa': 'quit', 'wq': 'quit --save
 ## Setting dark mode
 # config.set("colors.webpage.darkmode.enabled", True)
 
+config.set('content.cookies.accept', 'no-3rdparty')
+
+## Allow websites to show notifications.
+## Type: BoolAsk
+config.set('content.notifications.enabled', False)
+
 ## Load images automatically in web pages.
 ## Type: Bool
 config.set('content.images', True, 'chrome-devtools://*')
