@@ -17,45 +17,51 @@ config.load_autoconfig(False)
 ## Aliases for commands. The keys of the given dictionary are the
 ## aliases, while the values are the commands they map to.
 ## Type: Dict
-c.aliases = {'w': 'session-save', 'q': 'close', 'qa': 'quit', 'wq': 'quit --save', 'wqa': 'quit --save'}
+c.aliases = {
+    "w": "session-save",
+    "q": "close",
+    "qa": "quit",
+    "wq": "quit --save",
+    "wqa": "quit --save",
+}
 
 ## Setting dark mode
 # config.set("colors.webpage.darkmode.enabled", True)
 
-config.set('content.cookies.accept', 'no-3rdparty')
+config.set("content.cookies.accept", "no-3rdparty")
 
 ## Allow websites to show notifications.
 ## Type: BoolAsk
-config.set('content.notifications.enabled', False)
+config.set("content.notifications.enabled", False)
 
 ## Load images automatically in web pages.
 ## Type: Bool
-config.set('content.images', True, 'chrome-devtools://*')
+config.set("content.images", True, "chrome-devtools://*")
 
 ## Load images automatically in web pages.
 ## Type: Bool
-config.set('content.images', True, 'devtools://*')
+config.set("content.images", True, "devtools://*")
 
 ## Enable JavaScript.
 ## Type: Bool
-config.set('content.javascript.enabled', True, 'chrome-devtools://*')
+config.set("content.javascript.enabled", True, "chrome-devtools://*")
 
 ## Enable JavaScript.
 ## Type: Bool
-config.set('content.javascript.enabled', True, 'devtools://*')
+config.set("content.javascript.enabled", True, "devtools://*")
 
 ## Enable JavaScript.
 ## Type: Bool
-config.set('content.javascript.enabled', True, 'chrome://*/*')
+config.set("content.javascript.enabled", True, "chrome://*/*")
 
 ## Enable JavaScript.
 ## Type: Bool
-config.set('content.javascript.enabled', True, 'qute://*/*')
+config.set("content.javascript.enabled", True, "qute://*/*")
 
 ## Directory to save downloads to. If unset, a sensible OS-specific
 ## default is used.
 ## Type: Directory
-c.downloads.location.directory = '~/Downloads'
+c.downloads.location.directory = "~/Downloads"
 
 ## When to show the tab bar.
 ## Type: String
@@ -64,7 +70,10 @@ c.downloads.location.directory = '~/Downloads'
 ##   - never: Always hide the tab bar.
 ##   - multiple: Hide the tab bar if only one tab is open.
 ##   - switching: Show the tab bar when switching tabs.
-c.tabs.show = 'always'
+c.tabs.show = "always"
+
+## Position the tabs to the left
+c.tabs.position = "left"
 
 ## Search engines which can be used via the address bar.  Maps a search
 ## engine name (such as `DEFAULT`, or `ddg`) to a URL with a `{}`
@@ -84,7 +93,15 @@ c.tabs.show = 'always'
 ## the search engine name to the search term, e.g. `:open google
 ## qutebrowser`.
 ## Type: Dict
-c.url.searchengines = {'DEFAULT': 'https://duckduckgo.com/?q={}', 'am': 'https://www.amazon.com/s?k={}', 'aw': 'https://wiki.archlinux.org/?search={}', 'goog': 'https://www.google.com/search?q={}', 're': 'https://www.reddit.com/r/{}', 'wiki': 'https://en.wikipedia.org/wiki/{}', 'yt': 'https://www.youtube.com/results?search_query={}'}
+c.url.searchengines = {
+    "DEFAULT": "https://duckduckgo.com/?q={}",
+    "am": "https://www.amazon.com/s?k={}",
+    "aw": "https://wiki.archlinux.org/?search={}",
+    "goog": "https://www.google.com/search?q={}",
+    "re": "https://www.reddit.com/r/{}",
+    "wiki": "https://en.wikipedia.org/wiki/{}",
+    "yt": "https://www.youtube.com/results?search_query={}",
+}
 
 ## Default font families to use. Whenever "default_family" is used in a
 ## font setting, it's replaced with the fonts listed here. If set to an
@@ -97,7 +114,7 @@ c.fonts.default_family = '"SauceCodePro Nerd Font"'
 ## either a float value with a "pt" suffix, or an integer value with a
 ## "px" suffix.
 ## Type: String
-c.fonts.default_size = '11pt'
+c.fonts.default_size = "11pt"
 
 ## Font used in the completion widget.
 ## Type: Font
@@ -109,15 +126,15 @@ c.fonts.debug_console = '11pt "SauceCodePro Nerd Font"'
 
 ## Font used for prompts.
 ## Type: Font
-c.fonts.prompts = 'default_size sans-serif'
+c.fonts.prompts = "default_size sans-serif"
 
 ## Font used in the statusbar.
 ## Type: Font
 c.fonts.statusbar = '11pt "SauceCodePro Nerd Font"'
 
 ## Bindings for normal mode
-config.bind(',M', 'hint links spawn mpv {hint-url}')
-config.bind(',m', 'spawn mpv {url}')
+config.bind(",M", "hint links spawn mpv {hint-url}")
+config.bind(",m", "spawn mpv {url}")
 
 ## Theme
-config.source('nord-qutebrowser.py')
+config.source("nord-qutebrowser.py")
