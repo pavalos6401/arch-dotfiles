@@ -2,9 +2,9 @@
 # ~/.bashrc
 #
 
-export EDITOR="/usr/bin/emacs"
-export SUDO_EDITOR="/usr/bin/emacs"
-export VISUAL="/usr/bin/emacs"
+export EDITOR="emacsclient -c -a emacs"
+export SUDO_EDITOR="emacsclient -c -a emacs"
+export VISUAL="emacsclient -c -a emacs"
 
 # manpager
 export MANPAGER="sh -c 'col -bx | bat -l man -p'"

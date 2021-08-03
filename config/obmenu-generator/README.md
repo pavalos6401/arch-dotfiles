@@ -9,3 +9,6 @@ more information.
 ## Requirements
 
 Package: `obmenu-generator` (AUR)
+
+- Locker: `light-locker` (`lightdm` required)
+- Terminal: `alacritty`

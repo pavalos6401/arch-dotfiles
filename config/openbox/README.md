@@ -14,8 +14,9 @@ Package: `openbox`
 - Background: `feh`
 - Fonts: `ttf-dejavu`, `ttf-liberation`
 - Menu: `obmenu-generator` (AUR)
-- Terminal: `kitty`
-- Browser: `firefox`
+- Terminal: `alacritty`
+- Browser: `google-chrome-stable` (AUR)
+- Screen locker: `light-locker` (`lightdm` required)
 - Compositor: `picom`
 - Launcher: `rofi`
 - System tray: `network-manager-applet`, `pasystray`, `redshift`
