@@ -45,7 +45,6 @@ in other distributions.
 - [Rofi](./config/rofi/README.md)
 - [Tint2](./config/tint2/README.md)
 - [Vim](./vim/README.md)
-- [XMonad](./xmonad/README.md)
 
 ### Bash
 
