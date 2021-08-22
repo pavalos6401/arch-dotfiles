@@ -56,7 +56,7 @@ Package: `bash`
 
 - Editor: `vim`, `nvim`, `emacs`
 - Manpager: `bat`
-- Shenanigans: `cowsay`, `fortune-mod`, `neofetch`
+- Shenanigans: `cowsay`, `fortune-mod`, `neofetch`, `pokemon-colorscripts-git` (AUR), `shell-color-scripts` (AUR)
 - Optional: `bash-completion` 
 
 ### Redshift

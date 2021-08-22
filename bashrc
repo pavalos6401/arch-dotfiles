@@ -50,14 +50,14 @@ alias pacin="sudo pacman -S --needed"          # Install from repos
 alias pacrm="sudo pacman -Rs"                  # Remove a package
 alias paccl="sudo pacman -Rns $(pacman -Qtdq)" # Remove orphans
 # Shenanigans
-#alias tuxsay="cowsay -f tux"
+alias tuxsay="cowsay -f tux"
 alias nfetch="neofetch"
 
 # Other
 PS1='[\u@\h \W]\$ '
 
 # Start of prompt
-#colorscript --random
-#pokemon-colorscripts --random
+colorscript --random | tail --lines=+2
+#pokemon-colorscripts --random | tail --lines=+2
 #fortune | tuxsay
 #echo
