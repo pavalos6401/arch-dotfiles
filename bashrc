@@ -57,5 +57,8 @@ alias nfetch="neofetch"
 PS1='[\u@\h \W]\$ '
 
 # Start of prompt
-fortune | tuxsay
-echo
+pfetch
+#colorscript --random | tail --lines=+2
+#pokemon-colorscripts --random | tail --lines=+2
+#fortune | tuxsay
+#echo
